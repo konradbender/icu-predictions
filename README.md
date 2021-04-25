@@ -24,7 +24,7 @@ In order to deal with these missing values, they were imputed with the median on
 over the entire dataset.
 ## Predictions of necessary tests
 
-First, I the patients' records to train classifiers that will predict if a patient 
+First, the patients' records are used to train classifiers that will predict if a patient 
 will need some test of not. For this, I used a [Gradient Boosted Classifier](https://en.wikipedia.org/wiki/Gradient_boosting)
 to determine probabilities that a patient will use the test. The Receiver Operator Curve can be seen below.
 
