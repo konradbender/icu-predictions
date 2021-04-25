@@ -35,3 +35,10 @@ to determine probabilities that a patient will use the test. The Receiver Operat
 Second, the vital signs of the patient at the next hour after the recorded data should be predicted. For this, linear regression is a good
 estimate.
 
+To achieve good generalization of the model, I used Cross Validation on a Ridge penalized linear regression model.
+
+The normalized residuals of the evaluation can be seen below.
+
+[![residuals](https://n.ethz.ch/~kbender/download/misc/github_assets/hist.png)](https://n.ethz.ch/~kbender/download/misc/github_assets/hist.png)
+
+
