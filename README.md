@@ -32,4 +32,6 @@ to determine probabilities that a patient will use the test. The Receiver Operat
 
 ## Predictions of vital signs
 
-Second, the vital signs of the patient at the $13^{th}$ hou
+Second, the vital signs of the patient at the next hour after the recorded data. For this, linear regression is a good
+estimate.
+
