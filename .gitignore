@@ -3,3 +3,5 @@
 .train_features.csv
 .test_features.csv
 .train_labels.csv
+/.idea/
+/.ipynb_checkpoints/
